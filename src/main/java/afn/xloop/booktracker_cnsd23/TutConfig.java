@@ -15,17 +15,4 @@ public class TutConfig {
         return new Queue("hello");
     }
 
-
-    // @Profile("sender")
-    // @Bean
-    // public TutSender sender(){
-    //     return new TutSender();
-    // }
-
-    // @Profile("receiver")
-    // @Bean
-    // public TutReceiver receiver(){
-    //     return new TutReceiver();
-    // }
-
 }

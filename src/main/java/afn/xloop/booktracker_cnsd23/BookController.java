@@ -43,6 +43,7 @@ public class BookController {
     //localhost:8080/books
     @PostMapping("")
     public void createBook(@RequestBody Book book){
+        send();
         this.repo.save(book);
         
     }
